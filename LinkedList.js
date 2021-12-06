@@ -110,8 +110,8 @@ class LinkedList {
     } else {
       for (let i = 0; i < index; i++) {
         temp = temp.next
-        temp.next.value = value
       }
+      temp.next.value = value
     }
     return this
   }
