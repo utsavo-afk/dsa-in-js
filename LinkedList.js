@@ -180,10 +180,10 @@ class LinkedList {
 // execute
 try {
   const ll1 = new LinkedList(1)
-  ll1.push(2)
   ll1.push(3)
   ll1.push(4)
-  console.log(ll1.reverse())
+  console.log(ll1.insert(1, 2))
+  console.log(ll1.get(2))
   console.log(ll1)
 } catch (error) {
   console.log(error.message + ' in linkedlist')
