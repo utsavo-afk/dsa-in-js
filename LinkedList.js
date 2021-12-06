@@ -1,7 +1,7 @@
 class Node {
   constructor(value) {
     if (value === null || value === undefined)
-      throw new Error("Provide a valid 'value' to initilaise a node")
+      throw new Error("Provide a valid 'value' to initialise a node")
     this.value = value
     this.next = null
   }
